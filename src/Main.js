@@ -24,8 +24,8 @@ class Main extends React.Component {
         <HornedBeast title={'Baby mouflon'} imgUrl={this.props.imageURLs[15].image_url} description={'The cuteness that is a baby mouflon asleep'} clicks={0} />
         <HornedBeast title={'Happy Jackson\'s Chameleon'} imgUrl={this.props.imageURLs[16].image_url} description={'These are really common in Hawaii'} clicks={0} />
         <HornedBeast title={'Serious Jackson\'s Chameleon'} imgUrl={this.props.imageURLs[17].image_url} description={'This one is very serious.'} clicks={0} />
-        <HornedBeast title={'Horned Lizard'} imgUrl={this.props.imageURLs[17].image_url} description={'Fave food: ants'} clicks={0} />
-        <HornedBeast title={'Smaug'} imgUrl={this.props.imageURLs[17].image_url} description={'Fan illustration of Smaug from The Hobbit'} clicks={0} />
+        <HornedBeast title={'Horned Lizard'} imgUrl={this.props.imageURLs[18].image_url} description={'Fave food: ants'} clicks={0} />
+        <HornedBeast title={'Smaug'} imgUrl={this.props.imageURLs[19].image_url} description={'Fan illustration of Smaug from The Hobbit'} clicks={0} />
       </>
     )
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button'
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class HornedBeast extends React.Component {
         <h2>{this.props.title}</h2>
         <Image src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleClick} roundedCircle={true} className="beastImg" />
         <p>{this.props.description}</p>
-        <p>❤️ {this.state.clicks}</p>
+        <Button variant="primary" className="button" onClick={this.handleClick}>❤️ {this.state.clicks}</Button>
       </>
     )
   }
