@@ -6,4 +6,4 @@ Start time: 0737
 
 Finish time: 0946
 
-Actual time needed to complete: 2 hours+
+Actual time needed to complete: 2 hours+git
