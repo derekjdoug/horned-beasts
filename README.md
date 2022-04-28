@@ -1,9 +1,9 @@
-Number and name of feature: ________________________________
+Number and name of feature: Lab: Class 02
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 3 hours
 
-Start time: 0737____
+Start time: 0737
 
-Finish time: ___0926__
+Finish time: 0946
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hours+
