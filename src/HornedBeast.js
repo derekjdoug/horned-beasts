@@ -20,7 +20,7 @@ class HornedBeast extends React.Component {
         <h2>{this.props.title}</h2>
         <Image src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleClick} roundedCircle={true} className="beastImg" />
         <p>{this.props.description}</p>
-        <p>"❤️" {this.state.clicks}</p>
+        <p>❤️ {this.state.clicks}</p>
       </>
     )
   }
