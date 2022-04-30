@@ -1,9 +1,9 @@
-Number and name of feature: Lab: Class 02
+Number and name of feature: Lab: Class 03
 
 Estimate of time needed to complete: 3 hours
 
-Start time: 0737
+Start time: 1500
 
-Finish time: 0946
+Finish time: 1717
 
-Actual time needed to complete: 2 hours+git
+Actual time needed to complete: 2 hours+
