@@ -41,3 +41,38 @@
   max-width: 500px;
   border: 2px black solid;
 }
+
+.imgBody {
+  width: 100%;
+}
+
+.magImg {
+  width: 700px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.modContainer {
+  margin: auto;
+}
+
+.modalTitle {
+  margin: auto;
+  text-align: center;
+  font-size: 4rem;
+}
+.modalBody {
+  margin: auto;
+}
+
+.modalBody p {
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+}
