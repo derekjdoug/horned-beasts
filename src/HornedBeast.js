@@ -1,6 +1,8 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button'
+// import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -18,10 +20,18 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <>
-        <h2>{this.props.title}</h2>
-        <Image src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleClick} roundedCircle={true} className="beastImg" />
-        <p>{this.props.description}</p>
-        <Button variant="primary" className="button" onClick={this.handleClick}>❤️ {this.state.clicks}</Button>
+
+      <Card>
+        <Container>
+          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Img src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleClick} roundedCircle={true} className="beastImg" />
+          <Card.Body>
+            <Card.Text>{this.props.description}</Card.Text>
+            <Button variant="primary" className="button" onClick={this.handleClick}>❤️ {this.state.clicks}</Button>
+          </Card.Body>
+        </Container>
+      </Card>
+
       </>
     )
   }
