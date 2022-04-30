@@ -15,11 +15,15 @@ class HornedBeast extends React.Component {
     this.setState({clicks: this.state.clicks + 1});
   }
 
+  handleImgClick = () => {
+    this.props.handleShowModal();
+  }
+
   render() {
     return (
       <>
         <h2>{this.props.title}</h2>
-        <Image src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleClick} roundedCircle={true} className="beastImg" />
+        <Image src={this.props.imgUrl} alt={this.props.description} title={this.props.title} onClick={this.handleImgClick} roundedCircle={true} className="beastImg" />
         <p>{this.props.description}</p>
         <Button variant="primary" className="button" onClick={this.handleClick}>❤️ {this.state.clicks}</Button>
       </>
