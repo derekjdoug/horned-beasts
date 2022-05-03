@@ -10,7 +10,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModal: false
+      showModal: false,
+      selectedBeast: {}
     }
   }
 
@@ -18,8 +19,9 @@ class App extends React.Component {
     this.setState({showModal: false});
   }
 
-  handleShowModal = () => {
-    this.setState({showModal: true});
+  handleShowModal = (beastTitle) => {
+    const selectedBeast = imageURLs.find(beast => beast.title === beastTitle);
+    this.setState({showModal: true, selectedBeast});
   }
 
   render() {
@@ -28,7 +30,7 @@ class App extends React.Component {
         <Header />
         <Main imageURLs={imageURLs} handleShowModal={this.handleShowModal}/>
         <Footer />
-        <MagnifyModal showModal={this.state.showModal} handleCloseModal={this.handleCloseModal} />
+        <MagnifyModal showModal={this.state.showModal} handleCloseModal={this.handleCloseModal} selectedBeast={this.state.selectedBeast} />
       </div>
     );
   }
