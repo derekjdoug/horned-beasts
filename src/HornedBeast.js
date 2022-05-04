@@ -1,18 +1,13 @@
 import React from 'react';
-import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button'
-import MagnifyModal from './MagnifyModal';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import { toHaveStyle } from '@testing-library/jest-dom/dist/matchers';
 
 class HornedBeast extends React.Component {
   constructor(props) {
-    // eslint-disable-next-line no-lone-blocks
     super(props);
     this.state = {
       clicks: 0,
-      // showModal: false,
     }
   }
 
@@ -20,17 +15,7 @@ class HornedBeast extends React.Component {
     this.setState({clicks: this.state.clicks + 1});
   }
 
-  // handleImgClick = () => {
-  //   this.setState({ showModal: true})
-  // }
 
-  // handleCloseModal = () => {
-  //   this.setState({ showModal: false });
-  // }
-
-  // handleShowModal = () => {
-  //   this.setState({ showModal: true });
-  // }
 liftsStateToApp = () => {
   this.props.handleShowModal(this.props.title);
 }
