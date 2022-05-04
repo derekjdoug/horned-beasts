@@ -1,9 +1,21 @@
-Number and name of feature: Lab: Class 03
+# README
 
-Estimate of time needed to complete: 3 hours
+## Number and name of feature
 
-Start time: 1500
+- Lab: Class 04 (Filter by Number of Horns)
 
-Finish time: 1717
+## Estimate of time needed to complete
 
-Actual time needed to complete: 2 hours+
+- 2 Hours
+
+## Start time
+
+- 2205
+
+## Finish time
+
+- 2305
+
+## Actual time needed to complete
+
+- Approximately 1 hour
