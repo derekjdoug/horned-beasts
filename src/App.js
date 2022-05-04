@@ -7,7 +7,6 @@ import data from './data.json';
 import MagnifyModal from './MagnifyModal';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
-import ListGroup from 'react-bootstrap/ListGroup'
 
 class App extends React.Component {
   constructor(props) {
